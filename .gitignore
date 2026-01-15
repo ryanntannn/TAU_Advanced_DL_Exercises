@@ -1,0 +1,44 @@
+# macOS system files
+.DS_Store
+__MACOSX/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+*.env
+
+# Conda environment folders
+conda-env/
+*.conda/
+*.yaml~
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyTorch / ML artifacts
+*.pth
+*.pt
+checkpoints/
+runs/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Dataset folders (optional)
+data/
+datasets/
